@@ -21,7 +21,7 @@ npm install
 
 ## Steps to Reproduce the Error
 
-1. Uncomment the `approveRouter` function call at [line 290](https://github.com/SyedAsadKazmi/ccip-javascript-sdk-test/blob/ac0efee5202cdd2bca1a0d48ab68c8bb7d0dec9b/src/test.ts#L290), and comment out all the other function calls, like:
+1. Uncomment the `approveRouter` function call at [line 290](https://github.com/SyedAsadKazmi/ccip-javascript-sdk-test/blob/main/src/test.ts#L290), and comment out all the other function calls, like:
 
     ```js
     approveRouter() // Failure: This occurred due to using an account address instead of an account object while calling the writeContract function. Details about the error can be found in the 'Discussions' tab of the Viem repository: https://github.com/wevm/viem/discussions/1452
