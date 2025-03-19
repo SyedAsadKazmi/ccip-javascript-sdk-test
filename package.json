@@ -1,0 +1,22 @@
+{
+  "name": "ccip-javascript-sdk-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx tsx src/test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@chainlink/ccip-js": "^0.2.2",
+    "viem": "^2.23.12"
+  },
+  "type": "module"
+}
